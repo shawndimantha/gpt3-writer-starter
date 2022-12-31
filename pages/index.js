@@ -39,7 +39,7 @@ const Home = () => {
       <div className="container">
         <div className="header">
           <div className="header-title">
-            <h1>Unbiased deal memos for angel invesments...in seconds</h1>
+            <h1> AI powered due diligence memos for angel invesments in 60 seconds or less</h1>
           </div>
           <div className="header-subtitle">
             <h2>Enter the name of the startup you are considering investing in and we'll give you a memo, fast!</h2>
@@ -47,7 +47,7 @@ const Home = () => {
         </div>
         <div className="prompt-container">
           <textarea 
-          placeholder="start typing here" 
+          placeholder="Startp name (e.g. AirBnB)" 
           className="prompt-box"
           value={userInput}
           onChange={onUserChangedText}
